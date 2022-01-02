@@ -1,4 +1,4 @@
-# WannaCry2.0-Ransomware-Deface
+# WannaCry2.0-Ransomware-Deface 💥
 HTML WannaCry Ransomware v2.0 - websites defacement injection page
 
 {1} Download the ransomware in your Internal Memory
